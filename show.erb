@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Show</title>
+</head>
+<body>
+<h1>Show</h1>
+
+<a href="/">Back</a>
+
+<% times.each do |time| %>
+
+<h2><%= time[0] %></h2>
+<p>In: <%= time[1] %></p>
+<p>Out: <%= time[2] %></p>
+
+<% end %>
+
+</html>
