@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Toothtime</title>
-	</head>
-	<body>
-		<h1>Toothtime</h1>
+
 
 		<% if done %>
 
 		<p>Done!</p>
+
+		<a href="/">Enter another time</a>
 		
 		<% else %>
 		
+		<p>Say when you arrived at or left work</p>
+
 		<form action="/done" method="post">
 			<label>
 			In or out?
@@ -25,12 +23,9 @@
 			Time:
 				<input type="text" name="time">
 			</label>
-		<input type="submit">
+		<input type="submit" value="Go!">
 		</form>
 
 		<% end %>
 
 		<a href="/show">Show all times</a>
-
-	</body>
-</html>
