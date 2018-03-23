@@ -1,0 +1,38 @@
+body {
+	margin: 3em 3em 3em 3em;
+	font-family: Arial, sans-serif;
+}
+
+.intro {
+	font-size: 1.5em;
+	color: DarkGrey;
+}
+
+p, a {
+	font-size: 1.2em;
+}
+
+label, input {
+	display: block;
+}
+
+label {
+	margin: 0.2em;
+	font-size: 1.3em;
+}
+
+input {
+	font-family: Arial, sans-serif;
+	margin: 0 0 0.5em 0;
+	font-size: 1.3em;
+}
+
+input[type=submit] {
+	font-family: Arial, sans-serif;
+	padding: 0.6em 2em;
+	margin: 0.3em 0 0.8em 0;
+	background-color: green;
+	color: white;
+	border: none;
+}
+
